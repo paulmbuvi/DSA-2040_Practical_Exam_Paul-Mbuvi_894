@@ -282,6 +282,7 @@ Drill-down Query (UK Monthly Sales):
 
 # Slice Query (Electronics Category):
 Total Electronics Sales: $156,780 (35% of total revenue)
+
 # 🤖 Data Mining Outputs
 Data Preprocessing Results
 Dataset Summary Statistics:
@@ -297,16 +298,16 @@ After Min-Max Scaling:
 - Train set: 120 samples (80%)
 - Test set: 30 samples (20%)
 
-Clustering Analysis Results
+# Clustering Analysis Results
 
-Clustering Performance Metrics:
-K-Means Clustering Results:
-Optimal K: 3 (determined by elbow method)
-Adjusted Rand Index: 0.853 (Excellent agreement)
-Silhouette Score: 0.721 (Well-separated clusters)
-Homogeneity: 0.751
-Completeness: 0.764
-V-measure: 0.758
+1. Clustering Performance Metrics:
+2. K-Means Clustering Results:
+3 Optimal K: 3 (determined by elbow method)
+4. Adjusted Rand Index: 0.853 (Excellent agreement)
+5. Silhouette Score: 0.721 (Well-separated clusters)
+6. Homogeneity: 0.751
+7. Completeness: 0.764
+8. V-measure: 0.758
 
 Cluster Assignments vs True Labels:
            Setosa  Versicolor  Virginica
