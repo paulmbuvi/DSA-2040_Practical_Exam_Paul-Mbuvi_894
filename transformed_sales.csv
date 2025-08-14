@@ -1,9 +1,0 @@
-SaleID,CustomerName,ProductName,Date,StoreName,SalesAmount
-1,John Doe,Laptop X1,2025-01-10,Downtown Store,2500.0
-2,Mary Atieno,Office Chair,2025-02-15,Coastal Store,1500.0
-3,John Doe,Smartphone Z5,2025-03-20,Downtown Store,3200.0
-4,Peter Kamau,Tablet A7,2025-04-05,Lakeside Store,1800.0
-5,Grace Wambui,Standing Desk,2025-05-18,Downtown Store,2700.0
-6,Mary Atieno,Laptop X1,2025-04-05,Coastal Store,2600.0
-7,Peter Kamau,Office Chair,2025-02-15,Lakeside Store,1450.0
-8,Grace Wambui,Smartphone Z5,2025-01-10,Downtown Store,3100.0
