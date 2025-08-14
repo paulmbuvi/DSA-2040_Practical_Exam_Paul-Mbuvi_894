@@ -265,13 +265,13 @@ Data Quality: 95% retention rate
 OLAP Query Results
 Key Findings from OLAP Analysis:
 Roll-up Query (Sales by Country & Quarter):
-┌─────────────┬─────────┬─────────────────┐
-│ Country     │ Quarter │ Total_Sales     │
-├─────────────┼─────────┼─────────────────┤
-│ UK          │ Q4 2024 │ $45,230.50     │
-│ Germany     │ Q4 2024 │ $38,920.75     │
-│ France      │ Q3 2024 │ $29,845.25     │
-└─────────────┴─────────┴─────────────────┘
+
+ Country -------- Quarter ------- Total_Sales     
+
+ UK   -----------  Q4 2024 ------- $45,230.50     
+Germany ---------- Q4 2024 -------- $38,920.75     
+ France ---------  Q3 2024 ------- $29,845.25     
+
 
 Drill-down Query (UK Monthly Sales):
 - December 2024: $18,450 (Peak holiday season)
