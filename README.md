@@ -344,18 +344,6 @@ Dataset: 50 transactions, 20 unique items
 Parameters: min_support=0.2, min_confidence=0.5
 Rules Generated: 15 strong association rules
 
-# Top 5 Rules by Lift:
-
-┌─────────────────────┬─────────┬────────────┬──────┐
-│ Rule                │ Support │ Confidence │ Lift │
-├─────────────────────┼─────────┼────────────┼──────┤
-│ {bread,milk}→{butter}│  0.24   │    0.75    │ 2.10 │
-│ {diapers}→{beer}     │  0.22   │    0.65    │ 1.85 │
-│ {eggs,milk}→{bread}  │  0.26   │    0.70    │ 1.67 │
-│ {chips}→{soda}       │  0.20   │    0.83    │ 1.52 │
-│ {milk}→{bread}       │  0.32   │    0.64    │ 1.28 │
-└─────────────────────┴─────────┴────────────┴──────┘
-
 # Most Frequent Items:
 1. milk (40% of transactions)
 2. bread (35% of transactions)  
