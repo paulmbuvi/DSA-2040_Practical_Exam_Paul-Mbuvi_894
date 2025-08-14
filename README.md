@@ -6,7 +6,7 @@ Submission Date: [8/14/2025]
 
 
 ## Repository Structure
----
+
 DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984/
 ├── Data Warehousing/
 │   ├── schema_task/
@@ -58,16 +58,16 @@ DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984/
 │       └── item_frequencies.csv
 ├── README.md
 └── LICENSE
----
+
 💾 Datasets Used
-Data Warehousing
+# Data Warehousing
 
 Synthetic Data Generation
 Size: ~[1000] rows, [8] columns
 Key Features: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
 Generation Method: [If synthetic: Used pandas and random/faker libraries with seed=[123] for reproducibility]
 
-Data Mining
+# Data Mining
 
 Built-in Iris Dataset from scikit-learn
 Description: Classic iris flower classification dataset 
@@ -119,7 +119,7 @@ ProductDim: [200] unique products
 
 TimeDim: [365] time records
 
-Task 3: OLAP Queries and Analysis (15 Marks)
+# Task 3: OLAP Queries and Analysis (15 Marks)
 
 Queries Implemented:
 
@@ -131,14 +131,14 @@ Slice: Sales by product category (electronics/clothing/etc.)
 
 
 
-Key Insights:
+# Key Insights:
 
 UK generated highest sales with $45,000 in Q4 2024
 Electronics category contributed 35% of total revenue
 Clear seasonal trend with peak sales in December
 
 
-Visualization: Bar chart showing sales distribution by country
+# Visualization: Bar chart showing sales distribution by country
 Files: olap_queries.ipynb, olap_analysis_report.md, sales_by_country.png, Quarterly_trend.png
 
 ## 🤖 Section 2: Data Mining (50 Marks)
@@ -153,14 +153,14 @@ Label Encoding: [Not required for built-in dataset / Applied LabelEncoder for sy
 Train-Test Split: 80/20 split (120 train, 30 test samples)
 
 
-Key Statistics:
+## Key Statistics:
 
 Feature ranges: Sepal length [4.3-7.9], Sepal width [2.0-4.4], Petal length [1.0-6.9], Petal width [0.1-2.5]
 Class distribution: Setosa (33%), Versicolor (33%), Virginica (33%)
 Strong correlation between petal length and width (r=0.96)
 
 
-Outlier Detection: [Found X outliers in petal width using IQR method]
+# Outlier Detection: [Found X outliers in petal width using IQR method]
 Files: preprocessing_iris.ipynb, iris_processed.csv, iris_train.csv, iris_test.csv, visualization images
 
 # Task 2: Clustering (15 Marks)
@@ -174,18 +174,18 @@ Silhouette Score: [0.72] (well-separated clusters)
 Inertia: [25.4] for optimal k=3
 
 
-Key Findings:
+# Key Findings:
 
 Clusters effectively separated setosa from other species
 Some overlap between versicolor and virginica as expected
 Petal measurements were most discriminative features
 
 
-Real-world Applications: Customer segmentation, market research, species classification
+# Real-world Applications: Customer segmentation, market research, species classification
 Files: clustering_iris.ipynb, cluster visualizations, clustering_analysis_report.md
 
-Task 3: Classification and Association Rule Mining
-Part A: Classification 
+## Task 3: Classification and Association Rule Mining
+# Part A: Classification 
 
 Models Compared: Decision Tree vs K-Nearest Neighbors (k=5)
 Performance Results:
@@ -201,9 +201,6 @@ KNN (k=5):
 
 Accuracy: [93.3]%
 Precision: [0.93], Recall: [0.93], F1-Score: [0.93]
-
-
-
 
 Best Performer: [Decision Tree] due to [higher accuracy and interpretability]
 Tree Visualization: Generated decision tree showing [3] levels with clear decision boundaries
@@ -231,7 +228,7 @@ bashpip install pandas numpy scikit-learn matplotlib seaborn mlxtend sqlite3
 pip install faker
 Execution Order
 
-Data Warehousing:
+# Data Warehousing:
 bash# Create database schema
 sqlite3 retail_dw.db < schema_creation.sql
 
@@ -254,29 +251,29 @@ jupyter notebook clustering_iris.ipynb
 jupyter notebook mining_iris.ipynb
 
 
-Expected Runtime
+# Expected Runtime
 
 ETL Process: ~2-3 minutes
 Preprocessing: ~1 minute
 Clustering: ~2-3 minutes
 Classification & Association Rules: ~3-5 minutes
 
-✅ Self-Assessment
+# ✅ Self-Assessment
 Completed Tasks (✓/✗)
-Data Warehousing (50/50 marks):
+# Data Warehousing (50/50 marks):
 
 [✓] Task 1: Star schema design with diagram and SQL creation (15/15)
 [✓] Task 2: Complete ETL pipeline with logging and error handling (20/20)
 [✓] Task 3: OLAP queries with visualizations and analysis report (15/15)
 
-Data Mining (50/50 marks):
+# Data Mining (50/50 marks):
 
 [✓] Task 1: Comprehensive preprocessing with exploration and visualization (15/15)
 [✓] Task 2: K-means clustering with elbow method and performance analysis (15/15)
 [✓] Task 3A: Decision tree vs KNN classification comparison (10/10)
 [✓] Task 3B: Apriori algorithm with transaction analysis (10/10)
 
-Challenges Faced and Solutions
+# Challenges Faced and Solutions
 
 Handling datetime conversion in ETL process
 Used pd.to_datetime() with error handling for invalid dates
@@ -285,14 +282,14 @@ Implemented multiple visualization methods including silhouette analysis
 Generating realistic association rule patterns
 Used weighted random sampling to create believable shopping baskets
 
-Key Learnings
+# Key Learnings
 
 Star Schema Design: Understanding the trade-offs between normalization and query performance in data warehousing
 ETL Best Practices: Importance of data validation, logging, and error handling in production pipelines
 Clustering Evaluation: Multiple metrics (ARI, silhouette, inertia) provide comprehensive cluster quality assessment
 Association Rules: Business value of market basket analysis for retail recommendations and inventory planning
 
-Code Quality Features
+# Code Quality Features
 
 Modularity: All major operations wrapped in reusable functions
 Error Handling: Try-catch blocks for file operations and data processing
@@ -413,7 +410,7 @@ Dataset: 50 transactions, 20 unique items
 Parameters: min_support=0.2, min_confidence=0.5
 Rules Generated: 15 strong association rules
 
-Top 5 Rules by Lift:
+# Top 5 Rules by Lift:
 ┌─────────────────────┬─────────┬────────────┬──────┐
 │ Rule                │ Support │ Confidence │ Lift │
 ├─────────────────────┼─────────┼────────────┼──────┤
@@ -424,7 +421,7 @@ Top 5 Rules by Lift:
 │ {milk}→{bread}       │  0.32   │    0.64    │ 1.28 │
 └─────────────────────┴─────────┴────────────┴──────┘
 
-Most Frequent Items:
+# Most Frequent Items:
 1. milk (40% of transactions)
 2. bread (35% of transactions)  
 3. eggs (28% of transactions)
@@ -434,12 +431,12 @@ Show Image
 📈 Key Visualizations Gallery
 Data Warehousing Visualizations
 
-Star Schema Diagram: Complete ERD with fact and dimension relationships
-Sales Trends: Quarterly performance across all countries showing seasonal patterns
-Country Performance: Bar chart revealing UK as top market with 28% revenue share
-Category Analysis: Electronics leading with 35% of total sales
+# Star Schema Diagram: Complete ERD with fact and dimension relationships
+# Sales Trends: Quarterly performance across all countries showing seasonal patterns
+# Country Performance: Bar chart revealing UK as top market with 28% revenue share
+# Category Analysis: Electronics leading with 35% of total sales
 
-Data Mining Visualizations
+# Data Mining Visualizations
 
 Correlation Heatmap: Strong petal feature correlation (0.96) driving classification
 Cluster Boundaries: Clear separation of Setosa, partial overlap of Versicolor/Virginica
@@ -447,10 +444,10 @@ Decision Tree: 3-level tree with petal length as root decision criterion
 Feature Importance: Petal measurements contributing 78% to classification accuracy
 Market Basket Network: Visual representation of item association strengths
 
-📊 Results Summary
+# 📊 Results Summary
 SectionTaskMarksStatusKey MetricData WarehousingSchema Design15✅ CompleteStar schema: 1 fact + 3 dimension tablesData WarehousingETL Process20✅ Complete[950/1000] rows processed successfullyData WarehousingOLAP Analysis15✅ Complete3 analytical queries + visualizationsData MiningPreprocessing15✅ Complete150 samples, 4 features, 80/20 splitData MiningClustering15✅ CompleteK-means ARI = [0.85], Silhouette = [0.72]Data MiningClassification10✅ CompleteDecision Tree: [96.7]% accuracyData MiningAssociation Rules10✅ Complete[15] rules, top lift = [2.1]TotalAll Tasks100✅ 
 
-🔍 Data Quality Notes
+# 🔍 Data Quality Notes
 Data Warehousing
 
 Data Integrity: All foreign key relationships properly maintained
@@ -458,14 +455,14 @@ Data Validation: Removed [50] invalid records (negative quantities/prices)
 Temporal Consistency: All dates within expected range (2023-2025)
 Completeness: [95%] data retention after cleaning
 
-Data Mining
+# Data Mining
 
 Feature Quality: All features properly scaled and normalized
 Class Balance: Equal distribution maintained across species
 Outlier Handling: [5] statistical outliers identified and analyzed
 Reproducibility: All random processes seeded for consistent results
 
-📝 Additional Notes
+# 📝 Additional Notes
 
 Synthetic Data: All generated datasets use realistic distributions and patterns
 Performance Optimization: Code optimized for datasets up to 10,000 records
@@ -473,21 +470,21 @@ Scalability: ETL pipeline designed to handle larger datasets with minimal modifi
 Documentation: Each notebook includes markdown explanations and analysis
 Version Control: All code tested and debugged before submission
 
-🚨 Known Limitations
+# 🚨 Known Limitations
 
 Synthetic Data Realism: Generated data may not capture all real-world complexities
 Association Rules: Limited item catalog may not reflect actual retail diversity
 Time Constraints: Some advanced optimizations deferred due to exam time limits
 Hardware Dependency: Performance metrics may vary on different systems
 
-📚 References
+# 📚 References
 
 Pandas Documentation: https://pandas.pydata.org/docs/
 Scikit-learn User Guide: https://scikit-learn.org/stable/user_guide.html
 SQLite Documentation: https://sqlite.org/docs.html
 MLxtend Documentation: http://rasbt.github.io/mlxtend/
 
-📄 Academic Integrity
+# 📄 Academic Integrity
 This project represents entirely original work completed independently for DSA 2040. All code, analysis, and documentation were created without external assistance beyond official library documentation. No code was copied from online sources, forums, or other students.
 Plagiarism Declaration: I certify that this submission is my own original work and has not been submitted elsewhere for academic credit.
 
