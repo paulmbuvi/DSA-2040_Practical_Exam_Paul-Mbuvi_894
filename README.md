@@ -336,9 +336,9 @@ Drill-down Query (UK Monthly Sales):
 - November 2024: $14,890 (Black Friday impact)
 - October 2024: $11,890 (Back-to-school period)
 
-Slice Query (Electronics Category):
+# Slice Query (Electronics Category):
 Total Electronics Sales: $156,780 (35% of total revenue)
-🤖 Data Mining Outputs
+# 🤖 Data Mining Outputs
 Data Preprocessing Results
 Dataset Summary Statistics:
 Original Iris Dataset Analysis:
@@ -414,7 +414,7 @@ Rules Generated: 15 strong association rules
 3. eggs (28% of transactions)
 4. butter (22% of transactions)
 5. beer (20% of transactions)
-Show Image
+
 📈 Key Visualizations Gallery
 Data Warehousing Visualizations
 
@@ -475,7 +475,7 @@ MLxtend Documentation: http://rasbt.github.io/mlxtend/
 This project represents entirely original work completed independently for DSA 2040. All code, analysis, and documentation were created without external assistance beyond official library documentation. No code was copied from online sources, forums, or other students.
 Plagiarism Declaration: I certify that this submission is my own original work and has not been submitted elsewhere for academic credit.
 
-Repository: DSA_2040_Practical_Exam_PaulMbuvi_984
-Last Updated: 8/14/2025
-Contact: paulmbuvi777@gmail.com
-Submitted: August 2025
+## Repository: DSA_2040_Practical_Exam_PaulMbuvi_984
+# Last Updated: 8/14/2025
+# Contact: paulmbuvi777@gmail.com
+# Submitted: August 2025
