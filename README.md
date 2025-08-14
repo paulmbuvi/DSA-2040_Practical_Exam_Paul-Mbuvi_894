@@ -85,12 +85,12 @@ The exam demonstrates practical skills in designing data warehouses, implementin
 - I chose the star schema because it is simpler and easier to understand compared to the snowflake schema. All dimension tables are directly connected to the fact table, reducing the complexity of joins and improving query performance. This design also makes it easier for end users to navigate and analyze the data.
 
 SQL Schema: Complete CREATE TABLE statements for fact and dimension tables
-![alt text](<Screenshot 2025-08-14 185543.png>)
-![alt text](<Screenshot 2025-08-14 185543-1.png>)
-![alt text](<Screenshot 2025-08-14 185622.png>)
-![alt text](<Screenshot 2025-08-14 185622-1.png>)
-![alt text](<Screenshot 2025-08-14 185622-2.png>)
-![alt text](<Screenshot 2025-08-14 185622-3.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185543.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185543-1.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622-1.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622-2.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622-3.png>)
 
 Why I chose Star schema over Snowflake -
 
@@ -100,13 +100,13 @@ Why I chose Star schema over Snowflake -
  Implement complete ETL pipeline for retail data.
 
 - I was able to generate 1000 rows of synthetic retail data
-![alt text](<Screenshot 2025-08-14 185622-4.png>)
-![alt text](<Screenshot 2025-08-14 185622-5.png>)
-![alt text](<Screenshot 2025-08-14 185622-6.png>)
-![alt text](<Screenshot 2025-08-14 185622-7.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622-4.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622-5.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622-6.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622-7.png>)
 
 - Then I was able to confirm that this dataset was working
-![alt text](<Screenshot 2025-08-14 185622-8.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185622-8.png>)
 
 Key Features:
 
@@ -120,31 +120,31 @@ Error handling and rollback capability
 - **Queries Implemented:**
 
   1. Roll-up: Total sales by country and quarter
-  ![alt text](<Screenshot 2025-08-14 191838.png>)
-  ![alt text](<Screenshot 2025-08-14 191838-1.png>)
-  ![alt text](<Screenshot 2025-08-14 191838-2.png>)
+  ![alt text](/All screenshots/<Screenshot 2025-08-14 191838.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 191838-1.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 191838-2.png>)
 
   2. Drill-down: Monthly sales details for [specific country]
-  ![alt text](<Screenshot 2025-08-14 191838-3.png>)
-  ![alt text](<Screenshot 2025-08-14 191838-4.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 191838-3.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 191838-4.png>)
 
   3. Slice: Sales by product category
-  ![alt text](<Screenshot 2025-08-14 191838-5.png>)
-  ![alt text](<Screenshot 2025-08-14 191838-6.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 191838-5.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 191838-6.png>)
 
   # The Visualizations which I was able to Create
   ### Bar Chart of Sales by Country
-  ![alt text](<Screenshot 2025-08-14 191838-7.png>)
-  ![alt text](<Screenshot 2025-08-14 192920.png>)
-  ![alt text](<Screenshot 2025-08-14 192920-1.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 191838-7.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 192920.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 192920-1.png>)
 
   - From the Bar Graph above, we can say that Canada had the most sales than any other country.
   - Australia had the Most Sales Distribution by Country. 
 
 ### Quarterly Sales Trend
-![alt text](<Screenshot 2025-08-14 192920-2.png>)
-![alt text](<Screenshot 2025-08-14 192920-3.png>)
-![alt text](<Screenshot 2025-08-14 192920-4.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 192920-2.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 192920-3.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 192920-4.png>)
 
 - From the analysis above, l can see that the sales were increasing from Q3 of 2023 to the highest point of Q4 2024 and then it died down in the several years
 
@@ -155,9 +155,9 @@ Error handling and rollback capability
 ### Task 1: Data Preprocessing and Exploration
 
 - Preprocess and explore the Iris dataset.
-![alt text](<Screenshot 2025-08-14 185543-2.png>)
-![alt text](<Screenshot 2025-08-14 185543-3.png>)
-![alt text](<Screenshot 2025-08-14 185543-4.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185543-2.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185543-3.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 185543-4.png>)
 
 - **Data Source:** [Built-in Iris / Synthetic data]
 - **Preprocessing Steps:**
