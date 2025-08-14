@@ -338,10 +338,8 @@ Drill-down Query (UK Monthly Sales):
 
 Slice Query (Electronics Category):
 Total Electronics Sales: $156,780 (35% of total revenue)
-Show Image
 🤖 Data Mining Outputs
 Data Preprocessing Results
-Show Image
 Dataset Summary Statistics:
 Original Iris Dataset Analysis:
 ===============================
@@ -355,10 +353,9 @@ After Min-Max Scaling:
 - All features normalized to [0, 1] range
 - Train set: 120 samples (80%)
 - Test set: 30 samples (20%)
-Show Image
-Show Image
+
 Clustering Analysis Results
-Show Image
+
 Clustering Performance Metrics:
 K-Means Clustering Results:
 ===========================
@@ -374,10 +371,7 @@ Cluster Assignments vs True Labels:
 Cluster 0    50        0          0      (Perfect)
 Cluster 1     0       48          2      (96% purity)
 Cluster 2     0        2         48      (96% purity)
-Show Image
-Show Image
 Classification Results
-Show Image
 Model Performance Comparison:
 Classification Results Summary:
 ===============================
@@ -393,8 +387,6 @@ K-Nearest Neighbors (k=5):
 - Best k value: 5 (from grid search)
 
 Winner: Decision Tree (Higher accuracy + interpretability)
-Show Image
-Show Image
 Confusion Matrix - Decision Tree:
 Predicted:    Setosa  Versicolor  Virginica
 True:
@@ -402,7 +394,6 @@ Setosa           10          0          0
 Versicolor        0          9          1  
 Virginica         0          0         10
 Association Rule Mining Results
-Show Image
 Market Basket Analysis Output:
 Association Rules Mining Results:
 =================================
@@ -431,10 +422,10 @@ Show Image
 📈 Key Visualizations Gallery
 Data Warehousing Visualizations
 
-# Star Schema Diagram: Complete ERD with fact and dimension relationships
-# Sales Trends: Quarterly performance across all countries showing seasonal patterns
-# Country Performance: Bar chart revealing UK as top market with 28% revenue share
-# Category Analysis: Electronics leading with 35% of total sales
+ Star Schema Diagram: Complete ERD with fact and dimension relationships
+ Sales Trends: Quarterly performance across all countries showing seasonal patterns
+ Country Performance: Bar chart revealing UK as top market with 28% revenue share
+ Category Analysis: Electronics leading with 35% of total sales
 
 # Data Mining Visualizations
 
@@ -448,7 +439,7 @@ Market Basket Network: Visual representation of item association strengths
 SectionTaskMarksStatusKey MetricData WarehousingSchema Design15✅ CompleteStar schema: 1 fact + 3 dimension tablesData WarehousingETL Process20✅ Complete[950/1000] rows processed successfullyData WarehousingOLAP Analysis15✅ Complete3 analytical queries + visualizationsData MiningPreprocessing15✅ Complete150 samples, 4 features, 80/20 splitData MiningClustering15✅ CompleteK-means ARI = [0.85], Silhouette = [0.72]Data MiningClassification10✅ CompleteDecision Tree: [96.7]% accuracyData MiningAssociation Rules10✅ Complete[15] rules, top lift = [2.1]TotalAll Tasks100✅ 
 
 # 🔍 Data Quality Notes
-Data Warehousing
+# Data Warehousing
 
 Data Integrity: All foreign key relationships properly maintained
 Data Validation: Removed [50] invalid records (negative quantities/prices)
