@@ -62,34 +62,33 @@ DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984/
 💾 Datasets Used
 Data Warehousing
 
-Option Selected: [Synthetic Data Generation / UCI Online Retail Dataset]
-Description: [If synthetic: Generated retail transaction data mimicking real-world structure / If UCI: Downloaded online retail dataset from UCI ML Repository]
+Synthetic Data Generation
 Size: ~[1000] rows, [8] columns
 Key Features: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
 Generation Method: [If synthetic: Used pandas and random/faker libraries with seed=[123] for reproducibility]
 
 Data Mining
 
-Option Selected: [Built-in Iris Dataset from scikit-learn / Synthetic Data with Gaussian Distributions]
-Description: [If built-in: Classic iris flower classification dataset / If synthetic: Generated 150 samples with 3 clusters mimicking species]
+Built-in Iris Dataset from scikit-learn
+Description: Classic iris flower classification dataset 
 Size: 150 samples, 4 features, 3 classes
 Features: Sepal length/width, Petal length/width, Species (setosa, versicolor, virginica)
-Generation Method: [If synthetic: Used numpy.random with Gaussian distributions and seed=[456]]
+Used numpy.random with Gaussian distributions and seed=[456]
 
-🏗️ Section 1: Data Warehousing (50 Marks)
-Task 1: Data Warehouse Design (15 Marks)
+# 🏗️ Section 1: Data Warehousing (50 Marks)
+# Task 1: Data Warehouse Design (15 Marks)
 
-Schema Type: Star Schema
+# Schema Type: Star Schema
 Justification: [Replace with your 2-3 sentence explanation, e.g., "Star schema was chosen over snowflake schema for better query performance and simpler maintenance. The denormalized structure reduces complex joins and improves analytical query response times, which is crucial for OLAP operations."]
 Components:
 
-Fact Table: SalesFact
+# Fact Table: SalesFact
 
 Measures: sales_amount (DECIMAL), quantity (INTEGER)
 Foreign Keys: customer_id, product_id, time_id
 
 
-Dimension Tables:
+# Dimension Tables:
 
 CustomerDim: customer_id (PK), customer_name, country, registration_date
 ProductDim: product_id (PK), product_name, category, unit_price
@@ -97,12 +96,7 @@ TimeDim: time_id (PK), date, day, month, quarter, year
 [LocationDim if applicable]: location_id (PK), country, region, city
 
 
-
-
-
-Files: Retail_StarSchema_[ID].png, schema_creation.sql
-
-Task 2: ETL Process Implementation (20 Marks)
+## Task 2: ETL Process Implementation (20 Marks)
 
 Data Source: [Synthetic retail data generated with faker library / UCI Online Retail dataset]
 Processing Steps:
@@ -111,32 +105,30 @@ Extract: [X] rows loaded from CSV using pandas.read_csv()
 Transform:
 
 Created TotalSales = Quantity * UnitPrice
-Removed [Y] rows with Quantity < 0 or UnitPrice <= 0
+Removed 700 rows with Quantity < 0 or UnitPrice <= 0
 Filtered for sales after August 12, 2024 (last year)
 Generated customer summaries and time dimensions
 
-
-Load: Successfully loaded [Z] rows into SQLite database
-
-
-Rows Processed: Extract: [1000] → Transform: [950] → Load: [950]
 Database Tables Created:
 
 SalesFact: [950] records
+
 CustomerDim: [100] unique customers
+
 ProductDim: [200] unique products
+
 TimeDim: [365] time records
-
-
-Files: etl_retail.py, synthetic_retail_data.csv, retail_dw.db
 
 Task 3: OLAP Queries and Analysis (15 Marks)
 
 Queries Implemented:
 
 Roll-up: Total sales by country and quarter
+
 Drill-down: Monthly sales details for [UK/specific country from your data]
+
 Slice: Sales by product category (electronics/clothing/etc.)
+
 
 
 Key Insights:
@@ -149,7 +141,7 @@ Clear seasonal trend with peak sales in December
 Visualization: Bar chart showing sales distribution by country
 Files: olap_queries.ipynb, olap_analysis_report.md, sales_by_country.png, Quarterly_trend.png
 
-🤖 Section 2: Data Mining (50 Marks)
+## 🤖 Section 2: Data Mining (50 Marks)
 Task 1: Data Preprocessing and Exploration (15 Marks)
 
 Data Source: [Built-in Iris dataset from sklearn.datasets / Synthetic Gaussian clusters]
@@ -171,7 +163,7 @@ Strong correlation between petal length and width (r=0.96)
 Outlier Detection: [Found X outliers in petal width using IQR method]
 Files: preprocessing_iris.ipynb, iris_processed.csv, iris_train.csv, iris_test.csv, visualization images
 
-Task 2: Clustering (15 Marks)
+# Task 2: Clustering (15 Marks)
 
 Algorithm: K-Means clustering with k=[2,3,4,5] tested
 Optimal k: [3] determined via elbow method and silhouette analysis
@@ -184,16 +176,16 @@ Inertia: [25.4] for optimal k=3
 
 Key Findings:
 
-[Replace with actual analysis, e.g., "Clusters effectively separated setosa from other species"]
-[e.g., "Some overlap between versicolor and virginica as expected"]
-[e.g., "Petal measurements were most discriminative features"]
+Clusters effectively separated setosa from other species
+Some overlap between versicolor and virginica as expected
+Petal measurements were most discriminative features
 
 
 Real-world Applications: Customer segmentation, market research, species classification
 Files: clustering_iris.ipynb, cluster visualizations, clustering_analysis_report.md
 
-Task 3: Classification and Association Rule Mining (20 Marks)
-Part A: Classification (10 Marks)
+Task 3: Classification and Association Rule Mining
+Part A: Classification 
 
 Models Compared: Decision Tree vs K-Nearest Neighbors (k=5)
 Performance Results:
@@ -216,7 +208,7 @@ Precision: [0.93], Recall: [0.93], F1-Score: [0.93]
 Best Performer: [Decision Tree] due to [higher accuracy and interpretability]
 Tree Visualization: Generated decision tree showing [3] levels with clear decision boundaries
 
-Part B: Association Rule Mining (10 Marks)
+## Part B: Association Rule Mining (10 Marks)
 
 Transaction Data: [50] transactions with [20] unique items (milk, bread, beer, diapers, eggs, etc.)
 Generation Method: Used random.choices with weighted probabilities to create realistic shopping patterns
@@ -229,7 +221,7 @@ Top Rules by Lift:
 [eggs, milk] → [bread] (Support: 0.26, Confidence: 0.70, Lift: 1.6)
 
 
-Business Insight: [Replace with analysis, e.g., "The diapers→beer rule suggests young parents often buy beer during diaper purchases, indicating cross-selling opportunities for retailers"]
+The diapers→beer rule suggests young parents often buy beer during diaper purchases, indicating cross-selling opportunities for retailers
 
 Files: mining_iris.ipynb, synthetic_transactions.csv, association_rules.csv, analysis visualizations
 🚀 How to Run
