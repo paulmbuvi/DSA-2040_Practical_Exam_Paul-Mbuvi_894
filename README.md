@@ -7,7 +7,7 @@ Submission Date: [8/14/2025]
 
 ## Repository Structure
 
-DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984/
+DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984
 ├── Data Warehousing/
 │   ├── schema_task/
 │   │   ├── Retail_StarSchema_[ID].png
