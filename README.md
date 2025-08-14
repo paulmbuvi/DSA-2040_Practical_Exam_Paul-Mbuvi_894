@@ -4,61 +4,6 @@
 Student ID: [984]
 Submission Date: [8/14/2025] 
 
-
-## Repository Structure
-
-DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984
-├── Data Warehousing/
-│   ├── schema_task/
-│   │   ├── Retail_StarSchema_[ID].png
-│   │   └── schema_creation.sql
-│   ├── etl_task/
-│   │   ├── etl_retail.py
-│   │   ├── synthetic_retail_data.csv
-│   │   └── retail_dw.db
-│   └── olap_task/
-│       ├── olap_queries.ipynb
-│       ├── olap_analysis_report.md
-│       ├── sales_by_country.png
-│       └── Quarterly_trend.png
-├── Data Mining/
-│   ├── Preprocessing Task/
-│   │   ├── preprocessing_iris.ipynb
-│   │   ├── iris_processed.csv
-│   │   ├── iris_train.csv
-│   │   ├── iris_test.csv
-│   │   ├── iris_pairplot.png
-│   │   ├── iris_correlation_heatmap.png
-│   │   ├── iris_boxplots_outliers.png
-│   │   └── minmax_scaler.pkl
-│   ├── clustering_task/
-│   │   ├── clustering_iris.ipynb
-│   │   ├── iris_cluster_visualization.png
-│   │   ├── iris_elbow_curve.png
-│   │   ├── iris_k_comparison_grid.png
-│   │   ├── iris_silhouette_analysis.png
-│   │   ├── clustering_analysis_report.md
-│   │   ├── clustering_comparison_summary.csv
-│   │   ├── clustering_detailed_results.csv
-│   │   ├── clustering_metrics.csv
-│   │   └── cluster_centers.csv
-│   └── classification_task/
-│       ├── mining_iris.ipynb
-│       ├── decision_tree_visualization.png
-│       ├── decision_tree_feature_importance.png
-│       ├── decision_tree_feature_importance.csv
-│       ├── classifier_comparison.png
-│       ├── classification_comparison.csv
-│       ├── classification_detailed_report.txt
-│       ├── knn_k_optimization.png
-│       ├── synthetic_transactions.csv
-│       ├── association_rules.csv
-│       ├── association_rules_analysis.png
-│       ├── transaction_analysis.png
-│       └── item_frequencies.csv
-├── README.md
-└── LICENSE
-
 💾 Datasets Used
 # Data Warehousing
 
