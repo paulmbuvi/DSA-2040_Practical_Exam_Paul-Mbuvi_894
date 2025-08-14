@@ -309,7 +309,7 @@ ProductDim: [200] products in [5] categories
 TimeDim: [365] time records covering 2024-2025
 ETL Processing Results
 ETL Pipeline Execution Log:
-========================================
+
 EXTRACT Phase: 1000 rows loaded from CSV
 TRANSFORM Phase: 
   - Calculated TotalSales for 1000 records
@@ -317,7 +317,7 @@ TRANSFORM Phase:
   - Filtered 950 records for last year
   - Generated 100 customer summaries
 LOAD Phase: 950 records successfully inserted
-========================================
+
 Processing Time: 2.3 seconds
 Data Quality: 95% retention rate
 OLAP Query Results
@@ -342,7 +342,6 @@ Total Electronics Sales: $156,780 (35% of total revenue)
 Data Preprocessing Results
 Dataset Summary Statistics:
 Original Iris Dataset Analysis:
-===============================
 Shape: (150, 4) - No missing values
 Feature Correlations:
 - Petal Length ↔ Petal Width: r = 0.96 (Strong)
@@ -358,7 +357,6 @@ Clustering Analysis Results
 
 Clustering Performance Metrics:
 K-Means Clustering Results:
-===========================
 Optimal K: 3 (determined by elbow method)
 Adjusted Rand Index: 0.853 (Excellent agreement)
 Silhouette Score: 0.721 (Well-separated clusters)
@@ -374,7 +372,6 @@ Cluster 2     0        2         48      (96% purity)
 Classification Results
 Model Performance Comparison:
 Classification Results Summary:
-===============================
 Decision Tree Classifier:
 - Accuracy: 96.67% (29/30 correct predictions)
 - Precision: 0.967 | Recall: 0.967 | F1-Score: 0.967
@@ -396,7 +393,6 @@ Virginica         0          0         10
 Association Rule Mining Results
 Market Basket Analysis Output:
 Association Rules Mining Results:
-=================================
 Dataset: 50 transactions, 20 unique items
 Parameters: min_support=0.2, min_confidence=0.5
 Rules Generated: 15 strong association rules
