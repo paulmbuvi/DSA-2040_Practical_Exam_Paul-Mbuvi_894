@@ -105,10 +105,6 @@ Feature ranges: Sepal length [4.3-7.9], Sepal width [2.0-4.4], Petal length [1.0
 Class distribution: Setosa (33%), Versicolor (33%), Virginica (33%)
 Strong correlation between petal length and width (r=0.96)
 
-
-# Outlier Detection: [Found X outliers in petal width using IQR method]
-Files: preprocessing_iris.ipynb, iris_processed.csv, iris_train.csv, iris_test.csv, visualization images
-
 # Task 2: Clustering (15 Marks)
 
 Algorithm: K-Means clustering with k=[2,3,4,5] tested
