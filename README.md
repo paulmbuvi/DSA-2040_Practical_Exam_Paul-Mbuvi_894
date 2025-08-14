@@ -345,6 +345,7 @@ Parameters: min_support=0.2, min_confidence=0.5
 Rules Generated: 15 strong association rules
 
 # Top 5 Rules by Lift:
+
 ┌─────────────────────┬─────────┬────────────┬──────┐
 │ Rule                │ Support │ Confidence │ Lift │
 ├─────────────────────┼─────────┼────────────┼──────┤
@@ -379,7 +380,15 @@ Feature Importance: Petal measurements contributing 78% to classification accura
 Market Basket Network: Visual representation of item association strengths
 
 # 📊 Results Summary
-SectionTaskMarksStatusKey MetricData WarehousingSchema Design15✅ CompleteStar schema: 1 fact + 3 dimension tablesData WarehousingETL Process20✅ Complete[950/1000] rows processed successfullyData WarehousingOLAP Analysis15✅ Complete3 analytical queries + visualizationsData MiningPreprocessing15✅ Complete150 samples, 4 features, 80/20 splitData MiningClustering15✅ CompleteK-means ARI = [0.85], Silhouette = [0.72]Data MiningClassification10✅ CompleteDecision Tree: [96.7]% accuracyData MiningAssociation Rules10✅ Complete[15] rules, top lift = [2.1]TotalAll Tasks100✅ 
+SectionTaskMarksStatusKey MetricData WarehousingSchema 
+Design15✅ CompleteStar schema: 1 fact + 3 dimension tablesData Warehousing
+ETL Process20✅ Complete[950/1000] rows processed successfully
+Data WarehousingOLAP Analysis15✅ Complete3 analytical queries + visualizationsData
+MiningPreprocessing15✅ Complete150 samples, 4 features, 80/20 
+splitData MiningClustering15✅ CompleteK-means ARI = [0.85], Silhouette = [0.72]
+Data MiningClassification10✅ CompleteDecision Tree: [96.7]% accuracy
+Data MiningAssociation Rules10✅ Complete[15] rules, top lift = [2.1]
+TotalAll Tasks100✅ 
 
 # 🔍 Data Quality Notes
 # Data Warehousing
