@@ -7,8 +7,7 @@ Submission Date: [8/14/2025]
 
 ## Repository Structure
 
-```
-DSA-2040_PRACTICAL_EXAM_[Name]_[ID]/
+DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984/
 ├── Data Warehousing/
 │   ├── schema_task/
 │   │   ├── Retail_StarSchema_[ID].png
@@ -30,22 +29,35 @@ DSA-2040_PRACTICAL_EXAM_[Name]_[ID]/
 │   │   ├── iris_test.csv
 │   │   ├── iris_pairplot.png
 │   │   ├── iris_correlation_heatmap.png
-│   │   └── iris_boxplots_outliers.png
+│   │   ├── iris_boxplots_outliers.png
+│   │   └── minmax_scaler.pkl
 │   ├── clustering_task/
 │   │   ├── clustering_iris.ipynb
 │   │   ├── iris_cluster_visualization.png
 │   │   ├── iris_elbow_curve.png
-│   │   └── clustering_analysis_report.md
+│   │   ├── iris_k_comparison_grid.png
+│   │   ├── iris_silhouette_analysis.png
+│   │   ├── clustering_analysis_report.md
+│   │   ├── clustering_comparison_summary.csv
+│   │   ├── clustering_detailed_results.csv
+│   │   ├── clustering_metrics.csv
+│   │   └── cluster_centers.csv
 │   └── classification_task/
 │       ├── mining_iris.ipynb
 │       ├── decision_tree_visualization.png
+│       ├── decision_tree_feature_importance.png
+│       ├── decision_tree_feature_importance.csv
 │       ├── classifier_comparison.png
+│       ├── classification_comparison.csv
+│       ├── classification_detailed_report.txt
+│       ├── knn_k_optimization.png
 │       ├── synthetic_transactions.csv
+│       ├── association_rules.csv
 │       ├── association_rules_analysis.png
-│       └── classification_detailed_report.txt
+│       ├── transaction_analysis.png
+│       └── item_frequencies.csv
 ├── README.md
 └── LICENSE
-```
 
 ##  Project Overview
 
@@ -164,6 +176,38 @@ Error handling and rollback capability
   - Missing value handling
   - Feature scaling: Min-Max normalization
   - Train-test split: 80/20
+  ![alt text](<Screenshot 2025-08-14 204140.png>)
+  ![alt text](<Screenshot 2025-08-14 204140-1.png>)
+
+1. 
+![alt text](<Screenshot 2025-08-14 204140-2.png>)
+2. 
+![alt text](<Screenshot 2025-08-14 204140-3.png>)
+
+3. Normalizing Features
+![alt text](<Screenshot 2025-08-14 204140-4.png>)
+
+4. Encoding Class Labels
+![alt text](<Screenshot 2025-08-14 204140-5.png>)
+
+# Results of the Exploration:
+
+- There is a Strong correlation between petal length and width of (0.96)
+
+# Visualization Tree
+![alt text](<Screenshot 2025-08-14 204140-6.png>)
+![alt text](<Screenshot 2025-08-14 204140-7.png>)
+![alt text](<Screenshot 2025-08-14 204140-8.png>)
+![alt text](<Screenshot 2025-08-14 204140-9.png>)
+![alt text](<Screenshot 2025-08-14 204140-10.png>)
+![alt text](<Screenshot 2025-08-14 204140-11.png>)
+![alt text](<Screenshot 2025-08-14 204140-12.png>)
+
+- The output of this code was this
+![alt text](<Screenshot 2025-08-14 204140-13.png>)
+
+- From the above
+
 - **Key Statistics:** [Brief summary of dataset characteristics]
 - **Files:** `preprocessing_iris.ipynb`, processed data files, visualization images
 
