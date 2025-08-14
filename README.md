@@ -6,7 +6,7 @@ Submission Date: [8/14/2025]
 
 
 ## Repository Structure
-
+---
 DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984/
 ├── Data Warehousing/
 │   ├── schema_task/
@@ -58,7 +58,7 @@ DSA-2040_PRACTICAL_EXAM_PaulMbuvi_984/
 │       └── item_frequencies.csv
 ├── README.md
 └── LICENSE
-
+---
 💾 Datasets Used
 Data Warehousing
 
