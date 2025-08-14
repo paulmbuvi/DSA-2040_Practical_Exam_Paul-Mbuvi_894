@@ -1,0 +1,7 @@
+antecedents,consequents,support,confidence,lift
+frozenset({'cheese'}),frozenset({'tea'}),0.2,0.5714285714285715,1.7582417582417584
+frozenset({'tea'}),frozenset({'cheese'}),0.2,0.6153846153846154,1.7582417582417584
+frozenset({'onions'}),frozenset({'tomatoes'}),0.225,0.6923076923076923,1.6289592760180995
+frozenset({'tomatoes'}),frozenset({'onions'}),0.225,0.5294117647058824,1.6289592760180995
+frozenset({'diapers'}),frozenset({'beer'}),0.2,0.5714285714285715,1.4285714285714286
+frozenset({'beer'}),frozenset({'diapers'}),0.2,0.5,1.4285714285714286

@@ -1,0 +1,16 @@
+CLASSIFICATION PERFORMANCE REPORT
+==================================================
+
+Model Comparison:
+               Accuracy  Precision    Recall  F1-Score
+Decision Tree  0.966667   0.969697  0.966667  0.966583
+KNN (k=5)      0.966667   0.969697  0.966667  0.966583
+KNN (k=7)      1.000000   1.000000  1.000000  1.000000
+
+Feature Importance (Decision Tree):
+             Feature  Importance
+2  petal length (cm)    0.579077
+3   petal width (cm)    0.420923
+0  sepal length (cm)    0.000000
+1   sepal width (cm)    0.000000
+
