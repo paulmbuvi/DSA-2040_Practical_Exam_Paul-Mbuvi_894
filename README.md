@@ -21,7 +21,7 @@ Size: 150 samples, 4 features, 3 classes
 Features: Sepal length/width, Petal length/width, Species (setosa, versicolor, virginica)
 Used numpy.random with Gaussian distributions and seed=[456]
 
-# 🏗️ Section 1: Data Warehousing (50 Marks)
+#  Section 1: Data Warehousing (50 Marks)
 # Task 1: Data Warehouse Design (15 Marks)
 
 # Schema Type: Star Schema
@@ -87,7 +87,7 @@ Clear seasonal trend with peak sales in December
 # Visualization: Bar chart showing sales distribution by country
 Files: olap_queries.ipynb, olap_analysis_report.md, sales_by_country.png, Quarterly_trend.png
 
-## 🤖 Section 2: Data Mining (50 Marks)
+##  Section 2: Data Mining (50 Marks)
 Task 1: Data Preprocessing and Exploration (15 Marks)
 
 Data Source: [Built-in Iris dataset from sklearn.datasets / Synthetic Gaussian clusters]
@@ -163,7 +163,7 @@ Top Rules by Lift:
 The diapers→beer rule suggests young parents often buy beer during diaper purchases, indicating cross-selling opportunities for retailers
 
 Files: mining_iris.ipynb, synthetic_transactions.csv, association_rules.csv, analysis visualizations
-🚀 How to Run
+ How to Run
 Prerequisites
 bashpip install pandas numpy scikit-learn matplotlib seaborn mlxtend sqlite3
 # Optional for synthetic data generation:
@@ -200,7 +200,7 @@ Preprocessing: ~1 minute
 Clustering: ~2-3 minutes
 Classification & Association Rules: ~3-5 minutes
 
-# ✅ Self-Assessment
+#  Self-Assessment
 Completed Tasks (✓/✗)
 # Data Warehousing (50/50 marks):
 
@@ -239,8 +239,8 @@ Documentation: Comprehensive docstrings and inline comments
 Reproducibility: Random seeds set for all stochastic processes
 Logging: ETL process includes row count tracking at each stage
 
-📊 Core Outputs and Results
-🏗️ Data Warehousing Outputs
+ Core Outputs and Results
+Data Warehousing Outputs
 Star Schema Design
 Show Image
 Database Schema Summary:
@@ -281,7 +281,7 @@ Drill-down Query (UK Monthly Sales):
 # Slice Query (Electronics Category):
 Total Electronics Sales: $156,780 (35% of total revenue)
 
-# 🤖 Data Mining Outputs
+#  Data Mining Outputs
 Data Preprocessing Results
 Dataset Summary Statistics:
 Original Iris Dataset Analysis:
@@ -347,7 +347,7 @@ Rules Generated: 15 strong association rules
 4. butter (22% of transactions)
 5. beer (20% of transactions)
 
-📈 Key Visualizations Gallery
+ Key Visualizations Gallery
 Data Warehousing Visualizations
 
  Star Schema Diagram: Complete ERD with fact and dimension relationships
@@ -363,7 +363,7 @@ Decision Tree: 3-level tree with petal length as root decision criterion
 Feature Importance: Petal measurements contributing 78% to classification accuracy
 Market Basket Network: Visual representation of item association strengths
 
-# 📊 Results Summary
+#  Results Summary
 SectionTaskMarksStatusKey MetricData WarehousingSchema 
 Design15✅ CompleteStar schema: 1 fact + 3 dimension tablesData Warehousing
 ETL Process20✅ Complete[950/1000] rows processed successfully
@@ -397,21 +397,21 @@ Scalability: ETL pipeline designed to handle larger datasets with minimal modifi
 Documentation: Each notebook includes markdown explanations and analysis
 Version Control: All code tested and debugged before submission
 
-# 🚨 Known Limitations
+#  Known Limitations
 
 Synthetic Data Realism: Generated data may not capture all real-world complexities
 Association Rules: Limited item catalog may not reflect actual retail diversity
 Time Constraints: Some advanced optimizations deferred due to exam time limits
 Hardware Dependency: Performance metrics may vary on different systems
 
-# 📚 References
+#  References
 
 Pandas Documentation: https://pandas.pydata.org/docs/
 Scikit-learn User Guide: https://scikit-learn.org/stable/user_guide.html
 SQLite Documentation: https://sqlite.org/docs.html
 MLxtend Documentation: http://rasbt.github.io/mlxtend/
 
-# 📄 Academic Integrity
+#  Academic Integrity
 This project represents entirely original work completed independently for DSA 2040. All code, analysis, and documentation were created without external assistance beyond official library documentation. No code was copied from online sources, forums, or other students.
 Plagiarism Declaration: I certify that this submission is my own original work and has not been submitted elsewhere for academic credit.
 
