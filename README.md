@@ -1,7 +1,9 @@
 # DSA 2040 Practical Exam - Data Warehousing and Data Mining
 
- Student Name: [Paul Mbuvi]
+Student Name: [Paul Mbuvi]
+#
 Student ID: [984]
+#
 Submission Date: [8/14/2025] 
 
 # Data Warehousing
@@ -421,6 +423,8 @@ This project represents entirely original work completed independently for DSA 2
 Plagiarism Declaration: I certify that this submission is my own original work and has not been submitted elsewhere for academic credit.
 
 ## Repository: DSA_2040_Practical_Exam_PaulMbuvi_984
-# Last Updated: 8/14/2025
-# Contact: paulmbuvi777@gmail.com
-# Submitted: August 2025
+ Last Updated: 8/14/2025
+ #
+ Contact: paulmbuvi777@gmail.com
+ #
+ Submitted: August 2025
