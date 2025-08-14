@@ -4,7 +4,6 @@
 Student ID: [984]
 Submission Date: [8/14/2025] 
 
-💾 Datasets Used
 # Data Warehousing
 
 Synthetic Data Generation
