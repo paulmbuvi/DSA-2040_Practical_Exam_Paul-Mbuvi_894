@@ -176,35 +176,35 @@ Error handling and rollback capability
   - Missing value handling
   - Feature scaling: Min-Max normalization
   - Train-test split: 80/20
-  ![alt text](<Screenshot 2025-08-14 204140.png>)
-  ![alt text](<Screenshot 2025-08-14 204140-1.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 204140.png>)
+  ![alt text](</All screenshots/Screenshot 2025-08-14 204140-1.png>)
 
 1. 
-![alt text](<Screenshot 2025-08-14 204140-2.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-2.png>)
 2. 
-![alt text](<Screenshot 2025-08-14 204140-3.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-3.png>)
 
 3. Normalizing Features
-![alt text](<Screenshot 2025-08-14 204140-4.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-4.png>)
 
 4. Encoding Class Labels
-![alt text](<Screenshot 2025-08-14 204140-5.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-5.png>)
 
 # Results of the Exploration:
 
 - There is a Strong correlation between petal length and width of (0.96)
 
 # Visualization Tree
-![alt text](<Screenshot 2025-08-14 204140-6.png>)
-![alt text](<Screenshot 2025-08-14 204140-7.png>)
-![alt text](<Screenshot 2025-08-14 204140-8.png>)
-![alt text](<Screenshot 2025-08-14 204140-9.png>)
-![alt text](<Screenshot 2025-08-14 204140-10.png>)
-![alt text](<Screenshot 2025-08-14 204140-11.png>)
-![alt text](<Screenshot 2025-08-14 204140-12.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-6.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-7.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-8.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-9.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-10.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-11.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-12.png>)
 
 - The output of this code was this
-![alt text](<Screenshot 2025-08-14 204140-13.png>)
+![alt text](</All screenshots/Screenshot 2025-08-14 204140-13.png>)
 
 - From the above
 
